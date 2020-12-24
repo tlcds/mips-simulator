@@ -4,10 +4,20 @@ There are two simulators in this repository:
 
 ```
 .
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+├── simple
+│   ├── MIPSsim.java           # Load and stress tests
+│   ├── project1.pdf           # Detailed description 
+│   ├── sample.txt             # Input
+│   ├── sample_disassembly.txt # Expected output1
+│   └── sample_simulation.txt  # Expected output2
+│
+└── pipelined                 
+│   ├── MIPSsim.java           # Load and stress tests
+│   ├── project2.pdf           # Detailed description 
+│   ├── sample.txt             # Input
+│   ├── sample_simulation.txt  # Expected output
+│   └── simulation.txt         # Output
+│
+└── README.md
 ```
+
