@@ -11,7 +11,7 @@ There are two simulators in this repository:
 │   ├── sample_disassembly.txt # Expected output1
 │   └── sample_simulation.txt  # Expected output2
 │
-└── pipelined                 
+├── pipelined                 
 │   ├── MIPSsim.java           # Load and stress tests
 │   ├── project2.pdf           # Detailed description 
 │   ├── sample.txt             # Input
